@@ -11,7 +11,7 @@ from pathlib import Path
 
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "raw data" / "Historical1hrPM2.5_2026Oct.csv"
 
 # v2, not v1: the v1 endpoint omits the 00:00 reading of every date
